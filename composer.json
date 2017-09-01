@@ -29,7 +29,6 @@
     "thedignifiedco/squareup-theme": "*"
   },
 	"extra": {
-		"wordpress-install-dir": "wp",
 		"installer-paths"      : {
 			"wp-content/themes/{$name}/"    : ["type:wordpress-theme"]
 		}
