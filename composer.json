@@ -27,8 +27,9 @@
     "johnpbloch/wordpress-core-installer": "^1.0",
     "johnpbloch/wordpress-core": "dev-master",
     "thedignifiedco/squareup-theme": "*"
-  }
+  },
 	"extra": {
+		"wordpress-install-dir": "wp",
 		"installer-paths"      : {
 			"wp-content/themes/{$name}/"    : ["type:wordpress-theme"]
 		}
