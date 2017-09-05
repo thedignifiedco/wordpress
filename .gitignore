@@ -15,4 +15,12 @@ wp-content/plugins/hello.php
 /readme.html
 /sitemap.xml
 /sitemap.xml.gz
+wp/
+wp-content/
+wordpress/
+vendor/
+local-config.php
 
+
+# IDEs
+.idea

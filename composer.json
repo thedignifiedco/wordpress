@@ -1,37 +1,19 @@
 {
-  "name": "thedignifiedco/wordpress",
-  "description": "WordPress is web software you can use to create a beautiful website or blog.",
-  "keywords": [
-    "wordpress",
-    "blog",
-    "cms"
-  ],
-  "type": "package",
-  "homepage": "http://wordpress.org/",
-  "license": "GPL-2.0+",
-  "authors": [
-    {
-      "name": "WordPress Community",
-      "homepage": "http://wordpress.org/about/"
-    }
-  ],
-  "support": {
-    "issues": "http://core.trac.wordpress.org/",
-    "forum": "http://wordpress.org/support/",
-    "wiki": "http://codex.wordpress.org/",
-    "irc": "irc://irc.freenode.net/wordpress",
-    "source": "http://core.trac.wordpress.org/browser"
-  },
-  "require": {
-    "php": ">=5.3.2",
-    "johnpbloch/wordpress-core-installer": "^1.0",
-    "johnpbloch/wordpress-core": "dev-master",
-    "thedignifiedco/squareup-theme": "*"
-  },
-	"extra": {
-		"wordpress-install-dir": "wp",
-		"installer-paths"      : {
-			"wp-content/themes/{$name}/"    : ["type:wordpress-theme"]
-		}
-	}
+    "name": "thedignifiedco/wordpress",
+    "type": "website",
+    "require": {
+        "php": ">=5.3.2",
+        "johnpbloch/wordpress-core-installer": "^1.0",
+        "johnpbloch/wordpress-core": "dev-master",
+        "thedignifiedco/squareup-theme": "*"
+    },
+    "extra": {
+        "wordpress-install-dir": "wp"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:thedignifiedco/squareup-theme.git"
+        }
+    ]
 }
