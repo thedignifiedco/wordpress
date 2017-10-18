@@ -4,7 +4,6 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "cdfd6a693e2e06c58a826798eb09b432",
     "content-hash": "e6b91ed213f3d6a9d91cd86f8532e6fb",
     "packages": [
         {
@@ -122,7 +121,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2017-08-09 07:53:48"
+            "time": "2017-08-09T07:53:48+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core",
@@ -162,7 +161,7 @@
                 "cms",
                 "wordpress"
             ],
-            "time": "2017-09-04 19:47:53"
+            "time": "2017-09-04T19:47:53+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -211,20 +210,20 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2017-05-31 18:42:33"
+            "time": "2017-05-31T18:42:33+00:00"
         },
         {
             "name": "thedignifiedco/squareup-theme",
-            "version": "1.0.3",
+            "version": "1.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thedignifiedco/squareup-theme.git",
-                "reference": "dc13d1ba9edb3f75594ef343a80fcc2088072699"
+                "reference": "14c96b4cb31d246179992a4c5cbe655a78ac9227"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thedignifiedco/squareup-theme/zipball/dc13d1ba9edb3f75594ef343a80fcc2088072699",
-                "reference": "dc13d1ba9edb3f75594ef343a80fcc2088072699",
+                "url": "https://api.github.com/repos/thedignifiedco/squareup-theme/zipball/14c96b4cb31d246179992a4c5cbe655a78ac9227",
+                "reference": "14c96b4cb31d246179992a4c5cbe655a78ac9227",
                 "shasum": ""
             },
             "require": {
@@ -237,10 +236,10 @@
             },
             "description": "Test theme for Square Up Media",
             "support": {
-                "source": "https://github.com/thedignifiedco/squareup-theme/tree/v1.0.3",
+                "source": "https://github.com/thedignifiedco/squareup-theme/tree/v1.0.4",
                 "issues": "https://github.com/thedignifiedco/squareup-theme/issues"
             },
-            "time": "2017-09-05 10:38:39"
+            "time": "2017-10-18T14:28:10+00:00"
         }
     ],
     "packages-dev": [],
